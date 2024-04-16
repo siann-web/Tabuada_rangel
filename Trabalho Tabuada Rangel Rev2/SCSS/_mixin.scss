@@ -1,0 +1,36 @@
+@mixin numeros{
+    margin: 0 10px;
+    background-color: rgb(40, 40, 40);
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(60, 60, 60);
+    }
+}
+
+@mixin relarive{
+    display: flex;
+    position: relative;
+}
+
+@mixin absolute{
+    display: flex;
+    position: absolute;
+}
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin resultado{
+    background-color: rgb(40, 40, 40);
+    width: 400px;
+    margin: 20px 0 0 295px;
+    font-size: 25px;
+}
